@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section className="min-h-screen bg-white px-6 py-20">
+    <section className="min-h-screen bg-gradient-to-r from-indigo-200 via-blue-200 to-purple-400 px-6 py-20">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
         
         {/* Optional Image / Avatar */}
