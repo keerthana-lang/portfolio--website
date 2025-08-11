@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <section className="min-h-screen bg-white px-4 py-20">
+    <section className="min-h-screen bg-gradient-to-r from-indigo-200 via-blue-400 to-purple-400 px-4 py-20">
       <div className="max-w-xl mx-auto bg-gray-50 p-8 rounded-lg shadow-lg">
         <h2 className="text-3xl font-bold text-indigo-700 mb-6 text-center">Contact Me</h2>
         <form className="space-y-5">
