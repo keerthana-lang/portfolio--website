@@ -1,8 +1,8 @@
 function Home() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-indigo-50 to-white flex items-center justify-center px-4">
+    <section className="min-h-screen bg-gradient-to-r from-indigo-200 via-blue-400 to-purple-400 flex items-center justify-center px-4">
       <div className="text-center max-w-2xl">
-        <h1 className="text-4xl md:text-5xl font-bold text-indigo-700 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-black-700 mb-4">
           Hi, I'm Keerthana
         </h1>
         <p className="text-lg md:text-xl text-gray-700 mb-6">
