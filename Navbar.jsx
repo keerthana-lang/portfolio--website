@@ -5,16 +5,16 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md px-6 py-4">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-indigo-600">MyPortfolio</h1>
+    <nav className="flex-col items-center text-center px-4 py-3 bg-gradient-to-r from-white/50 via-purple-200 to-white/80">
+      <div className="max-w-8xl md-auto flex justify-between items-center p-4">
+        <h1 className="text-3xl font-bold text-black p-3 ">My Portfolio Website</h1>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
-          <li><Link to="/" className="hover:text-indigo-600">Home</Link></li>
-          <li><Link to="/about" className="hover:text-indigo-600">About</Link></li>
-          <li><Link to="/projects" className="hover:text-indigo-600">Projects</Link></li>
-          <li><Link to="/contact" className="hover:text-indigo-600">Contact</Link></li>
+        <ul className="hidden md:flex space-x-6 text-black font-medium p-4 text-xl">
+          <li><Link to="/" className="hover:text-yellow-600">Home</Link></li>
+          <li><Link to="/about" className="hover:text-yellow-600">About</Link></li>
+          <li><Link to="/projects" className="hover:text-yellow-600">Projects</Link></li>
+          <li><Link to="/contact" className="hover:text-yellow-600">Contact</Link></li>
         </ul>
 
         {/* Hamburger */}
@@ -46,3 +46,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
